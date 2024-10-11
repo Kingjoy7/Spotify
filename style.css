@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.702); 
+    color:white;  
+}
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+.right{
+    width: 75vw;
+    position: relative;
+}
+.home ul li{
+    list-style: none;
+    width: 14px;
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.bg-black{
+    background-color: black;
+    color:white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.right{
+    margin: 16px 0;
+    position: relative;
+}
+.heading{
+    display: flex;
+    width: 178px;
+    font-size: 13px; 
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+
+}
+.heading img{
+    
+    width: 18px;
+    padding-right: 10px;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0;
+}
+.footer a{
+    color: grey;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+}
+.header>*{
+    padding: 20px;
+}
+.Signup{
+    background-color: white;
+    font-size: 12px;
+    color:black;
+    padding: 13px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.Signup:hover{
+    font-size: 13px;
+    color: rgb(81, 75, 75);
+}
+.Login{
+    background-color: white;
+    font-size: 12px;
+    color: black;
+    padding: 13px ;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.Login:hover{
+    font-size: 13px;
+    color: rgb(101, 95, 95);
+}
+.spotify-playlists{
+    padding: 16px;
+}
+.card{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    
+}
+.card > *{
+    padding-top: 10px;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.card h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+.card p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.play{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 200px;
+    display: flex; 
+    justify-content: center; 
+    border-radius: 50px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+.playbar{
+    position: sticky;
+    background-color: #121212;
+    border-radius: 20px;
+    bottom: 0;
+    width: 70vw;
+    padding: 30px;
+    cursor: pointer;
+    height: 40px;
+    bottom: 0;
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 10px;
+}
+.songList{
+    height: 644px;
+    overflow: auto;
+    width: 380px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.songList ul{
+    padding: 0px 9px;
+}
+.songList ul li{
+    list-style-type:decimal;
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+    padding: 12px 0;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 15px 0;
+    padding: 13px;
+    border-radius: 5px;
+}
+.songList ul li img{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    padding-top: 3px;
+}
+.playnow{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.seekbar{
+    height: 2px;
+    border: 1px solid white;
+    background-color: #040303;
+    border-radius: 10px;
+    position: absolute;
+    width: 90%;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 13px;
+    background-color: rgb(254, 253, 253);
+    position: sticky;
+    top: 673px;
+}
+#pause{
+    width:3px;
+}

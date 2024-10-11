@@ -1,0 +1,35 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 7px;
+}
+/* Custom scrollbar for darker websites */
+::-webkit-scrollbar {
+    width: 12px; /* Scrollbar width */
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1e1e1e; /* Dark background track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454343; 
+    border-radius: 20px; 
+    border: 2px solid #1e1e1e; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444444; 
+}
